@@ -1,1 +1,1 @@
-# Data-structure-28
+#include <stdio.h>Int main(){Int book[5]={45,20,60,10,30};Int I,j,key;For(i=1;i<5;i++){Key=book[i];J=i-1;While(j>=0 && book[j]>key){Book[j+1]=book[j];j--;}Book[j+1]=key;}Printf(“Sorted Book IDs:\n”);For(i=0;i<5;i++)Printf(“%d “,book[i]);Return 0;}OUTPUT Sorted Book IDs:10 20 30 45 60
